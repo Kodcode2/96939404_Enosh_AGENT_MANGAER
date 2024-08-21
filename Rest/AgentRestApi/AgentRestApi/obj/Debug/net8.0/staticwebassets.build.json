@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+26AB8ZJU93KetwrhV2fZWm4+aec30TATBKaWFGBztc=",
+  "Source": "AgentRestApi",
+  "BasePath": "_content/AgentRestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
