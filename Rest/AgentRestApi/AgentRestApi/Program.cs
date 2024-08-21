@@ -1,5 +1,6 @@
 
 using AgentRestApi.Data;
+using AgentRestApi.Services;
 
 namespace AgentRestApi
 {
@@ -16,6 +17,7 @@ namespace AgentRestApi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<ApplicationDbContext>();
+            builder.Services.AddScoped<IAgentService, AgentService>();
             //builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             //.AddJwtBearer(options =>
             //{

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\OneDrive\\Documents\\תכנות\\My codes\\Webiks\\C#\\AgentsExam\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Documents\\תכנות\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\OneDrive\\Documents\\תכנות\\My codes\\Webiks\\C#\\AgentsExam\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj": {
+    "C:\\Users\\user\\OneDrive\\Documents\\תכנות\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Documents\\תכנות\\My codes\\Webiks\\C#\\AgentsExam\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Documents\\תכנות\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj",
         "projectName": "AgentRestApi",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Documents\\תכנות\\My codes\\Webiks\\C#\\AgentsExam\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Documents\\תכנות\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Documents\\תכנות\\My codes\\Webiks\\C#\\AgentsExam\\Rest\\AgentRestApi\\AgentRestApi\\obj\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Documents\\תכנות\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

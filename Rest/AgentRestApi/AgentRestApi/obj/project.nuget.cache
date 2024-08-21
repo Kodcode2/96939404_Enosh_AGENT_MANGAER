@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5nZ9Yatf0PxClSxMtGkGAWLWGRy3K8Ocf8iATv2jbeS7ioIBz/vFGhETp43FSl5nqAexsY66zj6/GyyrowaqBg==",
+  "dgSpecHash": "SpuNGzIiD/SGwLYObee7R68sEfbuG9854AMUlMlESbIFOxki1E/PW/F0a1FO08ilBQhfWZ/SUsez5JZfk8QlEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\OneDrive\\Documents\\תכנות\\My codes\\Webiks\\C#\\AgentsExam\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj",
+  "projectFilePath": "C:\\Users\\user\\OneDrive\\Documents\\תכנות\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
