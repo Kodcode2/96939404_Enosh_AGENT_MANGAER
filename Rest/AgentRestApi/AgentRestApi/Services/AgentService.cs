@@ -10,7 +10,7 @@ namespace AgentRestApi.Services
     {
         public async Task<AgentModel?> CreateAgentAsync(AgentDto agentDto)
         {
-            if(agentDto == null)
+            if(agentDto == null)    
             {
                 throw new Exception("Not Found");
             }
@@ -110,7 +110,12 @@ namespace AgentRestApi.Services
 
             model.Location_X += directions[direction.Movment].x;
             model.Location_Y += directions[direction.Movment].y;
-
+            
+            if (model.Location_X > 1000 || model.Location_X < 0
+                || model.Location_Y > 1000 || model.Location_Y < 0)
+            {
+                throw new Exception("No Allowed to get to this place");
+            }
             await context.SaveChangesAsync();
             return model;
 

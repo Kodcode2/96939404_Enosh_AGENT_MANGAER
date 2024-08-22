@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "AgentRestApi.Controllers.AgentController",
+    "ContainingType": "AgentRestApi.Controllers.AgentsController",
     "Method": "CreateAgent",
-    "RelativePath": "api/Agent",
+    "RelativePath": "Agents",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -31,9 +31,9 @@
     ]
   },
   {
-    "ContainingType": "AgentRestApi.Controllers.AgentController",
+    "ContainingType": "AgentRestApi.Controllers.AgentsController",
     "Method": "GetAllAgents",
-    "RelativePath": "api/Agent",
+    "RelativePath": "Agents",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -47,9 +47,9 @@
     ]
   },
   {
-    "ContainingType": "AgentRestApi.Controllers.AgentController",
+    "ContainingType": "AgentRestApi.Controllers.AgentsController",
     "Method": "GetAgentSingle",
-    "RelativePath": "api/Agent/{id}",
+    "RelativePath": "Agents/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -78,9 +78,9 @@
     ]
   },
   {
-    "ContainingType": "AgentRestApi.Controllers.AgentController",
+    "ContainingType": "AgentRestApi.Controllers.AgentsController",
     "Method": "MoveTarget",
-    "RelativePath": "api/Agent/{id}/move",
+    "RelativePath": "Agents/{id}/move",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -114,9 +114,9 @@
     ]
   },
   {
-    "ContainingType": "AgentRestApi.Controllers.AgentController",
+    "ContainingType": "AgentRestApi.Controllers.AgentsController",
     "Method": "PinTarget",
-    "RelativePath": "api/Agent/{id}/pin",
+    "RelativePath": "Agents/{id}/pin",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -150,9 +150,9 @@
     ]
   },
   {
-    "ContainingType": "AgentRestApi.Controllers.AgentController",
+    "ContainingType": "AgentRestApi.Controllers.AgentsController",
     "Method": "Delete",
-    "RelativePath": "api/Agent/delete/{id}",
+    "RelativePath": "Agents/delete/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -181,9 +181,9 @@
     ]
   },
   {
-    "ContainingType": "AgentRestApi.Controllers.AgentController",
+    "ContainingType": "AgentRestApi.Controllers.AgentsController",
     "Method": "Update",
-    "RelativePath": "api/Agent/update/{id}",
+    "RelativePath": "Agents/update/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -217,9 +217,25 @@
     ]
   },
   {
-    "ContainingType": "AgentRestApi.Controllers.TargetController",
+    "ContainingType": "AgentRestApi.Controllers.MissionsController",
+    "Method": "GetAllAgents",
+    "RelativePath": "Missions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AgentRestApi.Controllers.TargetSController",
     "Method": "CreateTarget",
-    "RelativePath": "api/Target",
+    "RelativePath": "TargetS",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -248,9 +264,9 @@
     ]
   },
   {
-    "ContainingType": "AgentRestApi.Controllers.TargetController",
+    "ContainingType": "AgentRestApi.Controllers.TargetSController",
     "Method": "GetAllTargets",
-    "RelativePath": "api/Target",
+    "RelativePath": "TargetS",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -264,9 +280,9 @@
     ]
   },
   {
-    "ContainingType": "AgentRestApi.Controllers.TargetController",
+    "ContainingType": "AgentRestApi.Controllers.TargetSController",
     "Method": "MoveTarget",
-    "RelativePath": "api/Target/{id}/move",
+    "RelativePath": "TargetS/{id}/move",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -300,9 +316,9 @@
     ]
   },
   {
-    "ContainingType": "AgentRestApi.Controllers.TargetController",
+    "ContainingType": "AgentRestApi.Controllers.TargetSController",
     "Method": "PinTarget",
-    "RelativePath": "api/Target/{id}/pin",
+    "RelativePath": "TargetS/{id}/pin",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
