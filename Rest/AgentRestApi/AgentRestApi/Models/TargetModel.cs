@@ -7,6 +7,7 @@ namespace AgentRestApi.Models
         public enum Status
         {
             live,
+            hunted,
             eliminated
         }
        

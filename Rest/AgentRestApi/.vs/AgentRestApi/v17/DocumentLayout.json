@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\services\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\agentrestapi\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\agentrestapi\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\agentrestapi\\services\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\services\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,15 +23,11 @@
       "RelativeMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\agentrestapi\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\agentrestapi\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\controllers\\targetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\agentrestapi\\controllers\\targetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\controllers\\targetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,7 +35,7 @@
       "RelativeMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\controllers\\missionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\agentrestapi\\controllers\\missionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\controllers\\missionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -65,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\agentrestapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\agentrestapi\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83A71AFA-D159-4540-AF9F-4328FB387669}|AgentRestApi\\AgentRestApi.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\agentrestapi\\dto\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -116,27 +116,14 @@
               "RelativeDocumentMoniker": "AgentRestApi\\Services\\MissionService.cs",
               "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Services\\MissionService.cs",
               "RelativeToolTip": "AgentRestApi\\Services\\MissionService.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAIwF0AAAAlAAAA",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAIYAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T08:07:05.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AgentDto.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\AgentDto.cs",
-              "RelativeDocumentMoniker": "AgentRestApi\\Dto\\AgentDto.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\AgentDto.cs",
-              "RelativeToolTip": "AgentRestApi\\Dto\\AgentDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:12:56.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AgentsController.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Controllers\\AgentsController.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Controllers\\AgentsController.cs",
@@ -144,12 +131,11 @@
               "RelativeToolTip": "AgentRestApi\\Controllers\\AgentsController.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAowBYAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T13:49:10.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T13:49:10.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TargetSController.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Controllers\\TargetSController.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Controllers\\TargetSController.cs",
@@ -157,12 +143,11 @@
               "RelativeToolTip": "AgentRestApi\\Controllers\\TargetSController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T14:23:46.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T14:23:46.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MissionModel.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Models\\MissionModel.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Models\\MissionModel.cs",
@@ -175,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AgentService.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Services\\AgentService.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Services\\AgentService.cs",
@@ -183,12 +168,11 @@
               "RelativeToolTip": "AgentRestApi\\Services\\AgentService.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAA1wAwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:51:01.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T12:51:01.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Data\\ApplicationDbContext.cs",
@@ -196,12 +180,36 @@
               "RelativeToolTip": "AgentRestApi\\Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAA1wAYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T08:19:41.178Z",
+              "WhenOpened": "2024-08-21T08:19:41.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TargetModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Models\\TargetModel.cs",
+              "RelativeDocumentMoniker": "AgentRestApi\\Models\\TargetModel.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Models\\TargetModel.cs",
+              "RelativeToolTip": "AgentRestApi\\Models\\TargetModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:12:27.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
+              "Title": "AgentDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\AgentDto.cs",
+              "RelativeDocumentMoniker": "AgentRestApi\\Dto\\AgentDto.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\AgentDto.cs",
+              "RelativeToolTip": "AgentRestApi\\Dto\\AgentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T12:12:56.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TargetService.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Services\\TargetService.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Services\\TargetService.cs",
@@ -209,12 +217,11 @@
               "RelativeToolTip": "AgentRestApi\\Services\\TargetService.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAAuwFMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T14:19:55.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T14:19:55.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DirectionDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\DirectionDto.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Dto\\DirectionDto.cs",
@@ -222,12 +229,11 @@
               "RelativeToolTip": "AgentRestApi\\Dto\\DirectionDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T06:38:31.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T06:38:31.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MissionsController.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Controllers\\MissionsController.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Controllers\\MissionsController.cs",
@@ -235,12 +241,11 @@
               "RelativeToolTip": "AgentRestApi\\Controllers\\MissionsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T08:08:13.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T08:08:13.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "TargetDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\TargetDto.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Dto\\TargetDto.cs",
@@ -248,12 +253,11 @@
               "RelativeToolTip": "AgentRestApi\\Dto\\TargetDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:10:15.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T12:10:15.411Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AgentModel.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Models\\AgentModel.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Models\\AgentModel.cs",
@@ -261,12 +265,11 @@
               "RelativeToolTip": "AgentRestApi\\Models\\AgentModel.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T07:55:08.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T07:55:08.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Program.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Program.cs",
@@ -278,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IAgentService.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Services\\IAgentService.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Services\\IAgentService.cs",
@@ -290,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ITargetService.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Services\\ITargetService.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Services\\ITargetService.cs",
@@ -302,19 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TargetModel.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Models\\TargetModel.cs",
-              "RelativeDocumentMoniker": "AgentRestApi\\Models\\TargetModel.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Models\\TargetModel.cs",
-              "RelativeToolTip": "AgentRestApi\\Models\\TargetModel.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAYwBQAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T08:12:27.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IMissionService.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Services\\IMissionService.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Services\\IMissionService.cs",

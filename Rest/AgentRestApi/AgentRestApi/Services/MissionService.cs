@@ -42,7 +42,7 @@ namespace AgentRestApi.Services
         public async Task<bool> IsTargetValid(int id)
         {
             var target = await FindTargetById(id);
-            if( target.TargetStatus == TargetModel.Status.eliminated)
+            if( target.TargetStatus == TargetModel.Status.hunted)
             {
                 return false;
             }
@@ -55,15 +55,10 @@ namespace AgentRestApi.Services
         {
             var agent = await FindAgentById(idAgent);
                 
-
             var target = await FindTargetById(idTarget);
-
 
             if (!await IsAgentIsValid(idAgent) && !await IsTargetValid(idTarget))
             {
-
-
-
                 var distance = CalculateDistance(agent.Location_X, target.Location_X, agent.Location_Y, target.Location_Y);
 
                 var timeLeft = distance / 5;
@@ -83,6 +78,8 @@ namespace AgentRestApi.Services
                     Status = Status.proposal
                 };
 
+                target.TargetStatus = TargetModel.Status.hunted;
+
                 await context.AddAsync(model);
                 await context.SaveChangesAsync();
                 return model;
@@ -91,12 +88,55 @@ namespace AgentRestApi.Services
         }
 
 
-        public async Task<> MoveAgent(int missionId)
+        public bool CheckIfEqualsInMatrix(AgentModel agent, TargetModel target)
         {
-            var mission = await context.Missions.FindAsync(missionId);
-              ?? throw new Exception("Mission not found");
-            ta
+            if(agent.Location_X == target.Location_X && agent.Location_Y == agent.Location_Y)
+            {
+                return false;
+            }
+            return true;
         }
+
+
+        public AgentModel MoveAgent(AgentModel agent, TargetModel target)
+        {
+            if (!CheckIfEqualsInMatrix(agent, target))
+            {
+                agent.Location_X = agent.Location_X < target.Location_X ? agent.Location_X += 1 : agent.Location_X;
+                agent.Location_X = agent.Location_X > target.Location_X ? agent.Location_X -= 1 : agent.Location_X;
+                agent.Location_Y = agent.Location_Y < target.Location_Y ? agent.Location_Y += 1 : agent.Location_Y;
+                agent.Location_Y = agent.Location_Y > target.Location_Y ? agent.Location_Y -= 1 : agent.Location_Y;
+            }
+            return agent;
+        }
+            
+
+
+        public async Task<MissionModel> UpdateMission(int id)
+        {
+            var mission = await context.Missions.FindAsync(id)
+                ?? throw new Exception("No mission found");
+
+            if(mission.AgentModel == null || mission.TargetModel == null)
+            {
+                throw new Exception("Don't found");
+            }
+
+            var moveAgent = MoveAgent(mission.AgentModel, mission.TargetModel);
+            
+            var distance = CalculateDistance(mission.AgentModel.Location_X,mission.TargetModel.Location_X
+                ,mission.AgentModel.Location_Y,mission.TargetModel.Location_Y);
+
+            var timeLeft = distance / 5;
+
+            mission.TimeLeft = timeLeft;
+
+            return mission;
+        } 
+            
+                
+            
+
 
 
         }
