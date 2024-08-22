@@ -10,5 +10,7 @@ namespace AgentRestApi.Services
         Task<AgentModel?> GetAgentById(int id);
         Task<AgentModel?> UpdateAgentAsync(AgentDto agent, int id);
         Task<AgentModel> DeleteAgentAsync(int id);
+        Task<AgentModel> PinAgent(LocationDto location, int id);
+        Task<AgentModel> MoveAgent(DirectionDto direction, int id);
     }
 }

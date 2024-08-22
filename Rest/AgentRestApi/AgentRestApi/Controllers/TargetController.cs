@@ -26,6 +26,8 @@ namespace AgentRestApi.Controllers
             }
         }
 
+
+
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult> GetAllTargets() =>
@@ -33,12 +35,41 @@ namespace AgentRestApi.Controllers
 
 
 
-        //[HttpPut("{id}/pin")]
-        //[ProducesResponseType(StatusCodes.Status201Created)]
-        //[ProducesResponseType(StatusCodes.Status400BadRequest)]
-        ////public async Task<ActionResult> PinTarget (int id)
-        ////{
-        ////    return 
-        ////}
+        
+        
+        [HttpPut("{id}/pin")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult> PinTarget(LocationDto location, int id)
+        {
+            try
+            {
+                return Ok(await targetService.PinTarget(location, id));
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+      
+        
+        [HttpPut("" +
+            "{id}/move")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult> MoveTarget(DirectionDto direction, int id)
+        {
+            try
+            {
+                return Ok(await targetService.MoveTarget(direction, id));
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

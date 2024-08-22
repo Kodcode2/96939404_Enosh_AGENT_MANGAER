@@ -18,6 +18,9 @@ namespace AgentRestApi
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<ApplicationDbContext>();
             builder.Services.AddScoped<IAgentService, AgentService>();
+            builder.Services.AddScoped<ITargetService, TargetService>();
+            builder.Services.AddScoped<IMissionService, MissionService>();
+
             //builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             //.AddJwtBearer(options =>
             //{

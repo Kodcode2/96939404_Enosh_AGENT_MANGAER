@@ -35,6 +35,8 @@ namespace AgentRestApi.Controllers
             Ok(await agentService.GetAllAgentsAsync());
 
 
+       
+        
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -86,6 +88,38 @@ namespace AgentRestApi.Controllers
             }
         }
 
+        [HttpPut("{id}/pin")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult> PinTarget(LocationDto location, int id)
+        {
+            try
+            {
+                return Ok(await agentService.PinAgent(location, id));
 
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        
+        
+        [HttpPut("{id}/move")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult> MoveTarget(DirectionDto location, int id)
+        {
+            try
+            {
+                return Ok(await agentService.MoveAgent(location, id));
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

@@ -30,8 +30,9 @@ namespace AgentRestApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("AgentStatus")
-                        .HasColumnType("int");
+                    b.Property<string>("AgentStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
                         .IsRequired()
@@ -64,13 +65,10 @@ namespace AgentRestApi.Migrations
                     b.Property<int>("AgentId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("AgentModelId")
-                        .HasColumnType("int");
-
                     b.Property<double>("ExecuteTime")
                         .HasColumnType("float");
 
-                    b.Property<int>("Status")
+                    b.Property<int>("TargetStatus")
                         .HasColumnType("int");
 
                     b.Property<int>("TargetId")
@@ -82,8 +80,6 @@ namespace AgentRestApi.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AgentId");
-
-                    b.HasIndex("AgentModelId");
 
                     b.HasIndex("TargetId");
 
@@ -118,8 +114,9 @@ namespace AgentRestApi.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TargetStatus")
-                        .HasColumnType("int");
+                    b.Property<string>("TargetStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -129,14 +126,10 @@ namespace AgentRestApi.Migrations
             modelBuilder.Entity("AgentRestApi.Models.MissionModel", b =>
                 {
                     b.HasOne("AgentRestApi.Models.AgentModel", "AgentModel")
-                        .WithMany()
-                        .HasForeignKey("AgentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("AgentRestApi.Models.AgentModel", null)
                         .WithMany("Mission")
-                        .HasForeignKey("AgentModelId");
+                        .HasForeignKey("AgentId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.HasOne("AgentRestApi.Models.TargetModel", "TargetModel")
                         .WithMany()
