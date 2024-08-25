@@ -55,7 +55,7 @@ namespace AgentRestApi.Services
             var targets = await RelevantTargetPorpose();
 
             var targetsInDistance = targets
-                .Where(t => (CalculateDistance(agent,t) > 200))
+                .Where(t => (CalculateDistance(agent,t) < 200))
                 .Select(t => t)
                 .ToList();
 
@@ -102,8 +102,8 @@ namespace AgentRestApi.Services
             var mission = await context.Missions.FindAsync(id)
                 ?? throw new Exception("No mission found");
 
-            var agent = mission.AgentModel;
-            var target = mission.TargetModel; 
+            var agent = await context.Agents.FindAsync(mission.AgentId);
+            var target = await context.Targets.FindAsync(mission.TargetId);
 
             if(CheckIfCanChangeStatus(mission,agent,target))
             {
@@ -149,8 +149,8 @@ namespace AgentRestApi.Services
            
             foreach (var mission in missions)
             {
-                var agent = mission.AgentModel;
-                var target = mission.TargetModel;
+                var agent = await context.Agents.FindAsync(mission.AgentId);
+                var target = await context.Targets.FindAsync(mission.TargetId);
                 var distance = CalculateDistance(agent, target);
                 if (!CheckIfEqualsInMatrix(agent, target))
                 {

@@ -42,7 +42,6 @@ namespace AgentRestApi.Services
             }
             model.Location_Y = location.Y;
             model.Location_X = location.X;
-            await context.AddAsync(model);
             await context.SaveChangesAsync();
             return model;
         }
@@ -65,7 +64,7 @@ namespace AgentRestApi.Services
             var model = await context.Targets.FirstOrDefaultAsync(x => x.Id == id)
                 ?? throw new Exception($"This target with {id} isn't exists");
 
-            bool IsExist = directions.TryGetValue(direction.Movment , out var result);
+            bool IsExist = directions.TryGetValue(direction.direction , out var result);
             if (!IsExist) 
             { 
                 throw new Exception("Not exists");
@@ -75,8 +74,8 @@ namespace AgentRestApi.Services
                 throw new Exception("Is eliminated");
             }
 
-            model.Location_X += directions[direction.Movment].x;
-            model.Location_Y += directions[direction.Movment].y;
+            model.Location_X += directions[direction.direction].x;
+            model.Location_Y += directions[direction.direction].y;
             if (model.Location_X > 1000 || model.Location_X < 0
                 || model.Location_Y > 1000 || model.Location_Y < 0)
             {

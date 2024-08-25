@@ -15,7 +15,7 @@ namespace AgentRestApi.Controllers
             Ok(await missionService.GetAllMissionsAsync());
 
 
-        [HttpPut("update/{id}")]
+        [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult> Update(int id)
@@ -33,10 +33,10 @@ namespace AgentRestApi.Controllers
         }
 
 
-        [HttpPut("update")]
+        [HttpPost("update")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult> UpdateMission(int id)
+        public async Task<ActionResult> UpdateMission()
         {
             try
             {

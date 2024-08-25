@@ -234,8 +234,8 @@
   },
   {
     "ContainingType": "AgentRestApi.Controllers.MissionsController",
-    "Method": "UpdateMission",
-    "RelativePath": "Missions/update",
+    "Method": "Update",
+    "RelativePath": "Missions/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -243,7 +243,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -265,18 +265,12 @@
   },
   {
     "ContainingType": "AgentRestApi.Controllers.MissionsController",
-    "Method": "Update",
-    "RelativePath": "Missions/update/{id}",
-    "HttpMethod": "PUT",
+    "Method": "UpdateMission",
+    "RelativePath": "Missions/update",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.Void",

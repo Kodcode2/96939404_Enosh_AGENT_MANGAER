@@ -73,7 +73,6 @@ namespace AgentRestApi.Services
 
             model.Location_Y = location.Y;
             model.Location_X = location.X;
-            await context.AddAsync(model);
             await context.SaveChangesAsync();
             return model;
         }
@@ -101,21 +100,21 @@ namespace AgentRestApi.Services
             var model = await context.Agents.FirstOrDefaultAsync(x => x.Id == id)
                 ?? throw new Exception($"This agent with {id} isn't exists");
 
-            bool IsExist = directions.TryGetValue(direction.Movment, out var result);
+            bool IsExist = directions.TryGetValue(direction.direction, out var result);
             if (!IsExist)
             {
                 throw new Exception("Not exists");
             }
-            if (model.AgentStatus == AgentModel.Status.dormant)
+            if (model.AgentStatus == AgentModel.Status.Activate)
             {
-                throw new Exception("Is dormant");
+                throw new Exception("Is activate");
             }
 
-            model.Location_X += directions[direction.Movment].x;
-            model.Location_Y += directions[direction.Movment].y;
+            model.Location_X += directions[direction.direction].x;
+            model.Location_Y += directions[direction.direction].y;
             
             if (model.Location_X > 1000 || model.Location_X < 0
-                || model.Location_Y > 1000 || model.Location_Y < 0)
+                || model.Location_Y > 1000 && model.Location_Y < 0)
             {
                 throw new Exception("No Allowed to get to this place");
             }
