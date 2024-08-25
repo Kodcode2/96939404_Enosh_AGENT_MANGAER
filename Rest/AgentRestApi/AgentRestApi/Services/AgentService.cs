@@ -3,11 +3,14 @@ using AgentRestApi.Data;
 using AgentRestApi.Dto;
 using AgentRestApi.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace AgentRestApi.Services
 {
-    public class AgentService(ApplicationDbContext context) : IAgentService
+    public class AgentService(ApplicationDbContext context, IServiceProvider serviceProvider) : IAgentService
     {
+        private IMissionService missionService = serviceProvider.GetRequiredService<IMissionService>();
         public async Task<AgentModel?> CreateAgentAsync(AgentDto agentDto)
         {
             if(agentDto == null)    
@@ -116,6 +119,7 @@ namespace AgentRestApi.Services
             {
                 throw new Exception("No Allowed to get to this place");
             }
+            await missionService.ProposeMissionAsync(model.Id);
             await context.SaveChangesAsync();
             return model;
 

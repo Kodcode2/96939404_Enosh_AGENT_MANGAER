@@ -1,48 +1,44 @@
 ﻿using AgentRestApi.Data;
 using AgentRestApi.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace AgentRestApi.Services
 {
     public class MissionService(ApplicationDbContext context) : IMissionService
     {
+       
+        
         public async Task<List<MissionModel>> GetAllMissionsAsync()
         {
             return await context.Missions.ToListAsync();
         }
 
-        public double CalculateDistance(int XAgent,int XTarget,int YAgent,int YTarget )
+        public double CalculateDistance(AgentModel agent, TargetModel target)
         {
-            var distance =  Math.Sqrt(Math.Pow(XAgent - XTarget, 2)
-                                + Math.Pow(YAgent - YTarget, 2));
+            var distance =  Math.Sqrt(Math.Pow(agent.Location_X - target.Location_X, 2)
+                                + Math.Pow(agent.Location_Y - target.Location_Y, 2));
             return distance;
            
         }
 
-        public async Task<AgentModel> FindAgentById(int id) =>
-            await context.Agents.FirstOrDefaultAsync(x => x.Id == id)
-               ?? throw new Exception($"Agent wirh this {id} not found");
 
 
-        public async Task<TargetModel> FindTargetById(int id) =>
-            await context.Targets.FirstOrDefaultAsync(x => x.Id == id)
-                  ?? throw new Exception($"Target with this {id} not found");
-
-        public async Task<bool> IsAgentIsValid(int id)
+        public async Task<List<TargetModel>> RelevantTargetPorpose()
         {
-            var agent = await FindAgentById(id);
-            if (agent.AgentStatus == AgentModel.Status.Activate)
-            {
-                return false;
-            }
-            return true;
+            var targets = await context.Targets
+                .Where(a => a.TargetStatus == TargetModel.Status.live).ToListAsync()
+                    ?? throw new Exception();
+            return targets;
         }
-            
 
-        public async Task<bool> IsTargetValid(int id)
+           
+
+        public async Task<bool> IsAgentValid(int id)
         {
-            var target = await FindTargetById(id);
-            if( target.TargetStatus == TargetModel.Status.hunted)
+            var agent = await context.Agents.FindAsync(id);
+            if( agent.AgentStatus == AgentModel.Status.dormant)
             {
                 return false;
             }
@@ -51,42 +47,77 @@ namespace AgentRestApi.Services
 
 
 
-        public async Task<MissionModel> CreateMissionAsync(int idAgent, int idTarget)
+        public async Task<List<MissionModel>> ProposeMissionAsync(int id)
         {
-            var agent = await FindAgentById(idAgent);
+            var agent = await context.Agents.FindAsync(id)
+                ?? throw new Exception("Not found");
                 
-            var target = await FindTargetById(idTarget);
+            var targets = await RelevantTargetPorpose();
 
-            if (!await IsAgentIsValid(idAgent) && !await IsTargetValid(idTarget))
+            var targetsInDistance = targets
+                .Where(t => (CalculateDistance(agent,t) > 200))
+                .Select(t => t)
+                .ToList();
+
+            List<MissionModel> missions = new();
+            
+            if (!await IsAgentValid(agent.Id))
             {
-                var distance = CalculateDistance(agent.Location_X, target.Location_X, agent.Location_Y, target.Location_Y);
-
-                var timeLeft = distance / 5;
-
-                if (distance > 200)
+                foreach (var target in targetsInDistance)
                 {
-                    throw new Exception("You can't create a mission");
+
+                    MissionModel model = new()
+                    {
+                        AgentId = agent.Id,
+                        AgentModel = agent,
+                        TargetId = target.Id,
+                        TargetModel = target,
+                        Status = Status.proposal
+                    };
+                    missions.Add(model);
                 }
 
-                MissionModel model = new()
-                {
-                    AgentId = idAgent,
-                    AgentModel = agent,
-                    TargetId = idTarget,
-                    TargetModel = target,
-                    TimeLeft = timeLeft,
-                    Status = Status.proposal
-                };
-
-                target.TargetStatus = TargetModel.Status.hunted;
-
-                await context.AddAsync(model);
+                await context.AddRangeAsync(missions);
                 await context.SaveChangesAsync();
-                return model;
+                return missions;
             }
             throw new Exception("No avalible to Mission");
         }
 
+        public bool  CheckIfCanChangeStatus(MissionModel mission, AgentModel agent, TargetModel target)
+        {
+            if(mission.Status == Status.proposal 
+                && agent.AgentStatus == AgentModel.Status.dormant
+                && target.TargetStatus == TargetModel.Status.live
+                && CalculateDistance(agent,target) <= 200
+                )
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public async Task<MissionModel> EditMissionStatus(int id)
+        {
+            var mission = await context.Missions.FindAsync(id)
+                ?? throw new Exception("No mission found");
+
+            var agent = mission.AgentModel;
+            var target = mission.TargetModel; 
+
+            if(CheckIfCanChangeStatus(mission,agent,target))
+            {
+                mission.Status = Status.OnMission;
+                agent.AgentStatus = AgentModel.Status.Activate;
+                target.TargetStatus = TargetModel.Status.hunted;
+                mission.StartTime = DateTime.Now;
+                await context.SaveChangesAsync();
+                return mission;
+
+            }
+            throw new Exception("Don't allow to update");
+
+        } 
 
         public bool CheckIfEqualsInMatrix(AgentModel agent, TargetModel target)
         {
@@ -100,7 +131,7 @@ namespace AgentRestApi.Services
 
         public AgentModel MoveAgent(AgentModel agent, TargetModel target)
         {
-            if (!CheckIfEqualsInMatrix(agent, target))
+            if (CheckIfEqualsInMatrix(agent, target))
             {
                 agent.Location_X = agent.Location_X < target.Location_X ? agent.Location_X += 1 : agent.Location_X;
                 agent.Location_X = agent.Location_X > target.Location_X ? agent.Location_X -= 1 : agent.Location_X;
@@ -109,30 +140,44 @@ namespace AgentRestApi.Services
             }
             return agent;
         }
-            
 
 
-        public async Task<MissionModel> UpdateMission(int id)
+        public async Task<List<MissionModel>> UpdateMission()
         {
-            var mission = await context.Missions.FindAsync(id)
-                ?? throw new Exception("No mission found");
-
-            if(mission.AgentModel == null || mission.TargetModel == null)
+            var missions = await context.Missions.Where(m => m.Status == Status.OnMission).ToListAsync();
+            
+           
+            foreach (var mission in missions)
             {
-                throw new Exception("Don't found");
+                var agent = mission.AgentModel;
+                var target = mission.TargetModel;
+                var distance = CalculateDistance(agent, target);
+                if (!CheckIfEqualsInMatrix(agent, target))
+                {
+                    target.TargetStatus = TargetModel.Status.eliminated;
+                    agent.AgentStatus = AgentModel.Status.dormant;
+                    mission.ExecuteTime = $"{DateTime.Now - mission.StartTime:mm\\ss}";
+                    await context.SaveChangesAsync();
+                }
+                else
+                {
+                    mission.TimeLeft = distance / 5;
+                    await context.SaveChangesAsync();
+                    MoveAgent(agent, target);   
+                }
             }
 
-            var moveAgent = MoveAgent(mission.AgentModel, mission.TargetModel);
+            return missions;
+
+
+
+        }
+
+
+
             
-            var distance = CalculateDistance(mission.AgentModel.Location_X,mission.TargetModel.Location_X
-                ,mission.AgentModel.Location_Y,mission.TargetModel.Location_Y);
 
-            var timeLeft = distance / 5;
 
-            mission.TimeLeft = timeLeft;
-
-            return mission;
-        } 
             
                 
             

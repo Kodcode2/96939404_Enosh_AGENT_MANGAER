@@ -17,7 +17,8 @@ namespace AgentRestApi.Models
         public int TargetId{ get; set; }
         public TargetModel? TargetModel { get; set; }
         public double? TimeLeft { get; set; }
-        public double ExecuteTime { get; set;}
+        public string? ExecuteTime { get; set;}
+        public DateTime StartTime { get; set;}
         public Status Status { get; set; }
 
     }

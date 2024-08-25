@@ -65,10 +65,13 @@ namespace AgentRestApi.Migrations
                     b.Property<int>("AgentId")
                         .HasColumnType("int");
 
-                    b.Property<double>("ExecuteTime")
-                        .HasColumnType("float");
+                    b.Property<string>("ExecuteTime")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TargetStatus")
+                    b.Property<DateTime>("StartTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Status")
                         .HasColumnType("int");
 
                     b.Property<int>("TargetId")

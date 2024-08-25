@@ -1,4 +1,5 @@
-﻿using AgentRestApi.Services;
+﻿using AgentRestApi.Dto;
+using AgentRestApi.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,6 +15,40 @@ namespace AgentRestApi.Controllers
             Ok(await missionService.GetAllMissionsAsync());
 
 
+        [HttpPut("update/{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult> Update(int id)
+        {
+            try
+            {
+                var model = await missionService.EditMissionStatus(id);
+                return Ok(model);
+
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
+
+        [HttpPut("update")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult> UpdateMission(int id)
+        {
+            try
+            {
+                var model = await missionService.UpdateMission();
+                return Ok(model);
+
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
 
     }
 
