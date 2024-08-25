@@ -156,7 +156,8 @@ namespace AgentRestApi.Services
                 {
                     target.TargetStatus = TargetModel.Status.eliminated;
                     agent.AgentStatus = AgentModel.Status.dormant;
-                    mission.ExecuteTime = $"{DateTime.Now - mission.StartTime:mm\\ss}";
+                    mission.ExecuteTime = $"{DateTime.Now - mission.StartTime:mm\\:ss}";
+                    mission.Status = Status.MissionEnd;
                     await context.SaveChangesAsync();
                 }
                 else

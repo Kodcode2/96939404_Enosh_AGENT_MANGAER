@@ -55,7 +55,7 @@ namespace AgentRestApi.Controllers
 
       
         
-        [HttpPut("" "{id}/move")]
+        [HttpPut("{id}/move")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> MoveTarget(DirectionDto direction, int id)
