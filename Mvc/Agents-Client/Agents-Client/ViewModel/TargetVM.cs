@@ -4,8 +4,7 @@ namespace Agents_Client.ViewModel
 {
     public class TargetVM
     {
-        public class TargetModel
-        {
+       
             public enum Status
             {
                 live,
@@ -21,7 +20,7 @@ namespace Agents_Client.ViewModel
             public required string Position { get; set; } = string.Empty;
             public int Location_X { get; set; } = -1;
             public int Location_Y { get; set; } = -1;
-            public Status TargetStatus { get; set; } = Status.live;
-        }
+            public Status TargetStatus { get; set; } 
+        
     }
 }

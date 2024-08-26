@@ -105,7 +105,7 @@ namespace AgentRestApi.Services
             {
                 throw new Exception("Not exists");
             }
-            if (model.AgentStatus == AgentModel.Status.Activate)
+            if (model.AgentStatus == AgentModel.StatusAgent.Activate)
             {
                 throw new Exception("Is activate");
             }

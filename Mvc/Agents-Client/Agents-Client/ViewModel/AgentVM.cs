@@ -11,12 +11,14 @@ namespace Agents_Client.ViewModel
         }
 
         public int Id { get; set; }
-        [Required, StringLength(100)]
         public required string NickName { get; set; } = string.Empty;
         public string Image { get; set; } = string.Empty;
         public int Location_X { get; set; } = -1;
         public int Location_Y { get; set; } = -1;
-        public Status AgentStatus { get; set; } = Status.dormant;
+        public Status AgentStatus { get; set; } 
+        public double TimeLeft { get; set; } = 0;
+        public List<MissionVM> MissionActivate { get; set; }
+        public int NumOfKills { get; set;}
 
     }
 }

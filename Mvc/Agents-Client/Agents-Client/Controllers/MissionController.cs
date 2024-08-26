@@ -7,7 +7,7 @@ namespace Agents_Client.Controllers
     {
         public async Task<IActionResult> Index()
         {
-            var missions = await missionService.GetAllMissionsPorpose();
+            var missions = await missionService.GetAllMissions();
             return View(missions);
         }
     }

@@ -10,15 +10,15 @@ namespace Agents_Client.ViewModel
             OnMission,
             MissionEnd
         }
-        public class MissionModel
-        {
-
+      
+            public int AgentId { get; set; }
+            public int TargetId { get; set; }
             public AgentVM? AgentModel { get; set; }
             public TargetVM? TargetModel { get; set; }
             public double? TimeLeft { get; set; }
             public string? ExecuteTime { get; set; }
             public DateTime StartTime { get; set; }
-            public Status Status { get; set; }
+            public Status MissionStatus { get; set; }
         }
     }
-}
+

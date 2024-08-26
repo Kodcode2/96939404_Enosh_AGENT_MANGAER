@@ -3,44 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\services\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\services\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\services\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\services\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\services\\generalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\agents-client\\services\\generalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\services\\generalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\agents-client\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\viewmodel\\missionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\viewmodel\\missionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\agents-client\\services\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\services\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\views\\mission\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\views\\mission\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\views\\general\\detailsdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\views\\general\\detailsdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\controllers\\generalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\controllers\\generalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\services\\iagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\services\\iagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\services\\igeneralservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\services\\igeneralservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\viewmodel\\agentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\viewmodel\\generalvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\viewmodel\\generalvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\agents-client\\viewmodel\\agentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\viewmodel\\agentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\viewmodel\\targetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\agents-client\\services\\iagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\services\\iagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\views\\target\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\views\\target\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\agents-client\\viewmodel\\targetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\viewmodel\\targetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\views\\agents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\views\\agents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\services\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\services\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\viewmodel\\missionactivesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\viewmodel\\missionactivesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\controllers\\targetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\controllers\\targetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\services\\itargetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\services\\itargetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\agents-client\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\views\\general\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\views\\general\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|c:\\users\\user\\onedrive\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\my codes\\webiks\\c#\\96939404_enosh_agent_mangaer\\mvc\\agents-client\\agents-client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\agents-client\\viewmodel\\missionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\viewmodel\\missionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\agents-client\\models\\agentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\models\\agentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\agents-client\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\agents-client\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\agents-client\\services\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA6E45C-BC12-43BB-AEA6-5E82EA7636A3}|Agents-Client\\Agents-Client.csproj|solutionrelative:agents-client\\services\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 176,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,33 +126,332 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "DetailsDashBoard.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\General\\DetailsDashBoard.cshtml",
+              "RelativeDocumentMoniker": "Agents-Client\\Views\\General\\DetailsDashBoard.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\General\\DetailsDashBoard.cshtml",
+              "RelativeToolTip": "Agents-Client\\Views\\General\\DetailsDashBoard.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T11:58:53.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Program.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Program.cs",
+              "RelativeToolTip": "Agents-Client\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwBAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:24:46.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\Agents\\Index.cshtml",
+              "RelativeDocumentMoniker": "Agents-Client\\Views\\Agents\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\Agents\\Index.cshtml",
+              "RelativeToolTip": "Agents-Client\\Views\\Agents\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T10:43:12.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GeneralVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\GeneralVM.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\ViewModel\\GeneralVM.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\GeneralVM.cs",
+              "RelativeToolTip": "Agents-Client\\ViewModel\\GeneralVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:29:07.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "GeneralService.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\GeneralService.cs",
               "RelativeDocumentMoniker": "Agents-Client\\Services\\GeneralService.cs",
               "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\GeneralService.cs",
               "RelativeToolTip": "Agents-Client\\Services\\GeneralService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABAAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAIwFkAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T15:39:30.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\Mission\\Index.cshtml",
-              "RelativeDocumentMoniker": "Agents-Client\\Views\\Mission\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\Mission\\Index.cshtml",
-              "RelativeToolTip": "Agents-Client\\Views\\Mission\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-25T15:22:44.053Z",
+              "DocumentIndex": 4,
+              "Title": "GeneralController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Controllers\\GeneralController.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Controllers\\GeneralController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Controllers\\GeneralController.cs",
+              "RelativeToolTip": "Agents-Client\\Controllers\\GeneralController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:18:02.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "MissionService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\MissionService.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Services\\MissionService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\MissionService.cs",
+              "RelativeToolTip": "Agents-Client\\Services\\MissionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:44:48.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgentService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\AgentService.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Services\\AgentService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\AgentService.cs",
+              "RelativeToolTip": "Agents-Client\\Services\\AgentService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAywDUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:23:19.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\Target\\Index.cshtml",
+              "RelativeDocumentMoniker": "Agents-Client\\Views\\Target\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\Target\\Index.cshtml",
+              "RelativeToolTip": "Agents-Client\\Views\\Target\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAADgvyoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T09:22:25.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGeneralService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\IGeneralService.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Services\\IGeneralService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\IGeneralService.cs",
+              "RelativeToolTip": "Agents-Client\\Services\\IGeneralService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:17:01.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAgentService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\IAgentService.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Services\\IAgentService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\IAgentService.cs",
+              "RelativeToolTip": "Agents-Client\\Services\\IAgentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:25:11.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TargetVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\TargetVM.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\ViewModel\\TargetVM.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\TargetVM.cs",
+              "RelativeToolTip": "Agents-Client\\ViewModel\\TargetVM.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:39:11.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AgentsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Controllers\\AgentsController.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Controllers\\AgentsController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Controllers\\AgentsController.cs",
+              "RelativeToolTip": "Agents-Client\\Controllers\\AgentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:38:34.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TargetService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\TargetService.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Services\\TargetService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\TargetService.cs",
+              "RelativeToolTip": "Agents-Client\\Services\\TargetService.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:10:44.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AgentVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\AgentVM.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\ViewModel\\AgentVM.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\AgentVM.cs",
+              "RelativeToolTip": "Agents-Client\\ViewModel\\AgentVM.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowBIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:37:50.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MissionActivesVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\MissionActivesVM.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\ViewModel\\MissionActivesVM.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\MissionActivesVM.cs",
+              "RelativeToolTip": "Agents-Client\\ViewModel\\MissionActivesVM.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:06:48.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TargetModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Models\\TargetModel.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Models\\TargetModel.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Models\\TargetModel.cs",
+              "RelativeToolTip": "Agents-Client\\Models\\TargetModel.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T05:58:36.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ITargetService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\ITargetService.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Services\\ITargetService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\ITargetService.cs",
+              "RelativeToolTip": "Agents-Client\\Services\\ITargetService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:22:05.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TargetController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Controllers\\TargetController.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Controllers\\TargetController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Controllers\\TargetController.cs",
+              "RelativeToolTip": "Agents-Client\\Controllers\\TargetController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:48:04.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MissionModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Models\\MissionModel.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Models\\MissionModel.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Models\\MissionModel.cs",
+              "RelativeToolTip": "Agents-Client\\Models\\MissionModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T05:57:56.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MissionVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\MissionVM.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\ViewModel\\MissionVM.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\MissionVM.cs",
+              "RelativeToolTip": "Agents-Client\\ViewModel\\MissionVM.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwBEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:40:15.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\General\\Index.cshtml",
+              "RelativeDocumentMoniker": "Agents-Client\\Views\\General\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\General\\Index.cshtml",
+              "RelativeToolTip": "Agents-Client\\Views\\General\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T08:28:19.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Agents-Client\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Agents-Client\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T08:27:22.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Agents-Client\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Agents-Client\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T08:27:26.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AgentModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Models\\AgentModel.cs",
+              "RelativeDocumentMoniker": "Agents-Client\\Models\\AgentModel.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Models\\AgentModel.cs",
+              "RelativeToolTip": "Agents-Client\\Models\\AgentModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T05:58:17.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "MissionController.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Controllers\\MissionController.cs",
               "RelativeDocumentMoniker": "Agents-Client\\Controllers\\MissionController.cs",
@@ -97,93 +464,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MissionService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\MissionService.cs",
-              "RelativeDocumentMoniker": "Agents-Client\\Services\\MissionService.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\MissionService.cs",
-              "RelativeToolTip": "Agents-Client\\Services\\MissionService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:44:48.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MissionVM.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\MissionVM.cs",
-              "RelativeDocumentMoniker": "Agents-Client\\ViewModel\\MissionVM.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\MissionVM.cs",
-              "RelativeToolTip": "Agents-Client\\ViewModel\\MissionVM.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAYwBAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:40:15.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AgentVM.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\AgentVM.cs",
-              "RelativeDocumentMoniker": "Agents-Client\\ViewModel\\AgentVM.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\AgentVM.cs",
-              "RelativeToolTip": "Agents-Client\\ViewModel\\AgentVM.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:37:50.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IAgentService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\IAgentService.cs",
-              "RelativeDocumentMoniker": "Agents-Client\\Services\\IAgentService.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\IAgentService.cs",
-              "RelativeToolTip": "Agents-Client\\Services\\IAgentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:25:11.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 26,
               "Title": "IMissionService.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\IMissionService.cs",
               "RelativeDocumentMoniker": "Agents-Client\\Services\\IMissionService.cs",
               "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\IMissionService.cs",
               "RelativeToolTip": "Agents-Client\\Services\\IMissionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T14:45:27.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TargetVM.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\TargetVM.cs",
-              "RelativeDocumentMoniker": "Agents-Client\\ViewModel\\TargetVM.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\ViewModel\\TargetVM.cs",
-              "RelativeToolTip": "Agents-Client\\ViewModel\\TargetVM.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAywBkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:39:11.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AgentService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\AgentService.cs",
-              "RelativeDocumentMoniker": "Agents-Client\\Services\\AgentService.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\My codes\\Webiks\\C#\\96939404_Enosh_AGENT_MANGAER\\Mvc\\Agents-Client\\Agents-Client\\Services\\AgentService.cs",
-              "RelativeToolTip": "Agents-Client\\Services\\AgentService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:23:19.244Z",
               "EditorCaption": ""
             }
           ]

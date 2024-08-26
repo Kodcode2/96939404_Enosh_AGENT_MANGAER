@@ -4,7 +4,7 @@ namespace AgentRestApi.Models
 {
     public class TargetModel
     {
-        public enum Status
+        public enum StatusTarget
         {
             live,
             hunted,
@@ -19,6 +19,6 @@ namespace AgentRestApi.Models
         public required string Position { get; set; } = string.Empty;
         public int Location_X { get; set; } = -1;
         public int Location_Y { get; set; } = -1;
-        public Status TargetStatus { get; set; } = Status.live;
+        public StatusTarget TargetStatus { get; set; } = StatusTarget.live;
     }
 }

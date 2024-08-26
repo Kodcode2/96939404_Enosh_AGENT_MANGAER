@@ -74,7 +74,7 @@ namespace AgentRestApi.Migrations
                     b.Property<DateTime>("StartTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Status")
+                    b.Property<int>("StatusAgents")
                         .HasColumnType("int");
 
                     b.Property<int>("TargetId")

@@ -1,3 +1,5 @@
+using Agents_Client.Services;
+
 namespace Agents_Client
 {
     public class Program
@@ -8,6 +10,12 @@ namespace Agents_Client
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddHttpClient();
+            builder.Services.AddScoped<IAgentService, AgentService>();
+            builder.Services.AddScoped<IMissionService, MissionService>();
+            builder.Services.AddScoped<ITargetService, TargetService>();
+            builder.Services.AddScoped<IGeneralService, GeneralService>();
+
 
             var app = builder.Build();
 

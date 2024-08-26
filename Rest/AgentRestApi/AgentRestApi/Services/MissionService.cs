@@ -28,7 +28,7 @@ namespace AgentRestApi.Services
         public async Task<List<TargetModel>> RelevantTargetPorpose()
         {
             var targets = await context.Targets
-                .Where(a => a.TargetStatus == TargetModel.Status.live).ToListAsync()
+                .Where(a => a.TargetStatus == TargetModel.StatusTarget.live).ToListAsync()
                     ?? throw new Exception();
             return targets;
         }
@@ -38,7 +38,7 @@ namespace AgentRestApi.Services
         public async Task<bool> IsAgentValid(int id)
         {
             var agent = await context.Agents.FindAsync(id);
-            if( agent.AgentStatus == AgentModel.Status.dormant)
+            if( agent.AgentStatus == AgentModel.StatusAgent.dormant)
             {
                 return false;
             }
@@ -74,6 +74,11 @@ namespace AgentRestApi.Services
                         TargetModel = target,
                         Status = Status.proposal
                     };
+                    bool exist = context.Missions.Any(m => m.AgentId == model.AgentId && m.TargetId == model.TargetId);
+                    if (exist)
+                    {
+                        continue;
+                    }
                     missions.Add(model);
                 }
 
@@ -87,8 +92,8 @@ namespace AgentRestApi.Services
         public bool  CheckIfCanChangeStatus(MissionModel mission, AgentModel agent, TargetModel target)
         {
             if(mission.Status == Status.proposal 
-                && agent.AgentStatus == AgentModel.Status.dormant
-                && target.TargetStatus == TargetModel.Status.live
+                && agent.AgentStatus == AgentModel.StatusAgent.dormant
+                && target.TargetStatus == TargetModel.StatusTarget.live
                 && CalculateDistance(agent,target) <= 200
                 )
             {
@@ -108,8 +113,8 @@ namespace AgentRestApi.Services
             if(CheckIfCanChangeStatus(mission,agent,target))
             {
                 mission.Status = Status.OnMission;
-                agent.AgentStatus = AgentModel.Status.Activate;
-                target.TargetStatus = TargetModel.Status.hunted;
+                agent.AgentStatus = AgentModel.StatusAgent.Activate;
+                target.TargetStatus = TargetModel.StatusTarget.hunted;
                 mission.StartTime = DateTime.Now;
                 await context.SaveChangesAsync();
                 return mission;
@@ -154,8 +159,8 @@ namespace AgentRestApi.Services
                 var distance = CalculateDistance(agent, target);
                 if (!CheckIfEqualsInMatrix(agent, target))
                 {
-                    target.TargetStatus = TargetModel.Status.eliminated;
-                    agent.AgentStatus = AgentModel.Status.dormant;
+                    target.TargetStatus = TargetModel.StatusTarget.eliminated;
+                    agent.AgentStatus = AgentModel.StatusAgent.dormant;
                     mission.ExecuteTime = $"{DateTime.Now - mission.StartTime:mm\\:ss}";
                     mission.Status = Status.MissionEnd;
                     await context.SaveChangesAsync();

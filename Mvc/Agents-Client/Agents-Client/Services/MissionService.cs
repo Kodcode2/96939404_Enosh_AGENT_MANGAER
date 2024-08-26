@@ -5,8 +5,8 @@ namespace Agents_Client.Services
 {
     public class MissionService(IHttpClientFactory clientFactory): IMissionService
     {
-        private readonly string baseUrl = "http://localhost:5226";
-        public async Task<List<MissionVM>> GetAllMissionsPorpose()
+        private readonly string baseUrl = "http://localhost:5226/missions";
+        public async Task<List<MissionVM>> GetAllMissions()
         {
             var httpClient = clientFactory.CreateClient();
             var result = await httpClient.GetAsync(baseUrl);

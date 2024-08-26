@@ -1,15 +1,98 @@
-﻿using Agents_Client.ViewModel;
+﻿using Agents_Client.Models;
+using Agents_Client.ViewModel;
 
 namespace Agents_Client.Services
 {
-    public class GeneralService(IHttpClientFactory clientFactory)
+    public class GeneralService(IHttpClientFactory clientFactory,IAgentService agentService,
+        IMissionService missionService, ITargetService targetService): IGeneralService
     {
-        private static IAgentService _agentService;
-        private static IMissionService _missionService;
-
-        public async Task<List<MissionVM>> GetAllMissionAssigned()
+       public async Task<List<MissionActiveVM>> GetAllMissionPorposal()
         {
+            var agents = await agentService.GetAllAgents();
+            var targets = await targetService.GetAllTargets();
+            var missions = await missionService.GetAllMissions();
+
+            
+
+            List<MissionActiveVM> missionproposal = new();
+            
+            var currentMission = missions.Where(m => m.MissionStatus == MissionVM.Status.proposal).ToList();
+            
+            foreach (var mission in currentMission)
+            {
+                var agent = agents.FirstOrDefault(a => a.Id == mission.AgentId);
+                var target = targets.FirstOrDefault(t => t.Id == mission.TargetId);
+                var distance = CalculateDistance(agent, target);
+                
+                missionproposal.Add(new MissionActiveVM
+                {
+
+                    NickName = agent.NickName,
+                    Location_X_Agent = agent.Location_X,
+                    Location_Y_Agent = agent.Location_Y,
+                    TargetName = target.Name,
+                    TargetPosition = target.Position,
+                    Location_X_Target = target.Location_X,
+                    Location_Y_Target = target.Location_Y,
+                    TimeLeft = mission.TimeLeft,
+                    Distance =distance,
+
+                });
+            }
+            return missionproposal;
+        }
+
+
+
+
+        public double CalculateDistance(AgentVM agent, TargetVM target)
+        {
+            var distance = Math.Sqrt(Math.Pow(agent.Location_X - target.Location_X, 2)
+                                + Math.Pow(agent.Location_Y - target.Location_Y, 2));
+            return distance;
 
         }
+
+
+        public async Task<GeneralVM> GetGeneralDetails()
+        {
+            var agents = await agentService.GetAllAgents();
+            var targets = await targetService.GetAllTargets();
+            var missions = await missionService.GetAllMissions();
+
+            var numAgents = agents.Count;
+            var numAgentsActive = agents.Where(a => a.AgentStatus == AgentVM.Status.Activate).Count();
+            var numTargets = targets.Count;
+            var numTargetsEliminated = targets.Where(t => t.TargetStatus == TargetVM.Status.eliminated).Count();
+            var numMissions = missions.Count;
+            var numMissionsActivate = missions.Where(m => m.MissionStatus == MissionVM.Status.OnMission).Count();
+            var agentInTargets = agents.Count() / targets.Count();
+            var agentsInProposal = agents.Where(a => a.AgentStatus == AgentVM.Status.dormant).Count() /
+                targets.Where(t => t.TargetStatus == TargetVM.Status.live).Count();
+
+            GeneralVM generalVM = new()
+            {
+                Agents = numAgents,
+                AgentsActivate = numAgentsActive,
+                Targets = numTargets,
+                TargetsElimnated = numTargetsEliminated,
+                Missions = numMissions,
+                MissionsActivate = numMissionsActivate,
+                AgentInTargets = agentInTargets,
+
+            };
+            return generalVM;
+
+        }
+
+        public int AgentInProposal(AgentVM agent, TargetVM target)
+        {
+            var agents = agentService.GetAllAgents();
+            var targets = targetService.GetAllTargets();
+            var distance = CalculateDistance(agent, target);
+
+            var agentInProposal = agents.
+        }
+
     }
 }

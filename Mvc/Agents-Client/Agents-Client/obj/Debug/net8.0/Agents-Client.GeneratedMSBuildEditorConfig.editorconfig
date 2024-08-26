@@ -26,6 +26,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\user\OneDrive\Documents\תכנות\My codes\Webiks\C#\96939404_Enosh_AGENT_MANGAER\Mvc\Agents-Client\Agents-Client
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/user/OneDrive/Documents/תכנות/My codes/Webiks/C\#/96939404_Enosh_AGENT_MANGAER/Mvc/Agents-Client/Agents-Client/Views/Agents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/OneDrive/Documents/תכנות/My codes/Webiks/C\#/96939404_Enosh_AGENT_MANGAER/Mvc/Agents-Client/Agents-Client/Views/General/DetailsDashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbFxEZXRhaWxzRGFzaEJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/OneDrive/Documents/תכנות/My codes/Webiks/C\#/96939404_Enosh_AGENT_MANGAER/Mvc/Agents-Client/Agents-Client/Views/General/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/user/OneDrive/Documents/תכנות/My codes/Webiks/C\#/96939404_Enosh_AGENT_MANGAER/Mvc/Agents-Client/Agents-Client/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,16 +46,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/OneDrive/Documents/תכנות/My codes/Webiks/C\#/96939404_Enosh_AGENT_MANGAER/Mvc/Agents-Client/Agents-Client/Views/Mission/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlzc2lvblxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/user/OneDrive/Documents/תכנות/My codes/Webiks/C\#/96939404_Enosh_AGENT_MANGAER/Mvc/Agents-Client/Agents-Client/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/OneDrive/Documents/תכנות/My codes/Webiks/C\#/96939404_Enosh_AGENT_MANGAER/Mvc/Agents-Client/Agents-Client/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/OneDrive/Documents/תכנות/My codes/Webiks/C\#/96939404_Enosh_AGENT_MANGAER/Mvc/Agents-Client/Agents-Client/Views/Target/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZ2V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/OneDrive/Documents/תכנות/My codes/Webiks/C\#/96939404_Enosh_AGENT_MANGAER/Mvc/Agents-Client/Agents-Client/Views/_ViewImports.cshtml]

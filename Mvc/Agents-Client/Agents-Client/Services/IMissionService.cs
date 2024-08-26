@@ -4,6 +4,6 @@ namespace Agents_Client.Services
 {
     public interface IMissionService
     {
-        Task<List<MissionVM>> GetAllMissionsPorpose();
+        Task<List<MissionVM>> GetAllMissions();
     }
 }

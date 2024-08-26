@@ -69,7 +69,7 @@ namespace AgentRestApi.Services
             { 
                 throw new Exception("Not exists");
             }
-            if(model.TargetStatus == TargetModel.Status.eliminated)
+            if(model.TargetStatus == TargetModel.StatusTarget.eliminated)
             {
                 throw new Exception("Is eliminated");
             }
