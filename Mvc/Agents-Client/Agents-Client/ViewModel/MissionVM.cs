@@ -10,7 +10,7 @@ namespace Agents_Client.ViewModel
             OnMission,
             MissionEnd
         }
-      
+            public int Id {  get; set; }
             public int AgentId { get; set; }
             public int TargetId { get; set; }
             public AgentVM? AgentModel { get; set; }

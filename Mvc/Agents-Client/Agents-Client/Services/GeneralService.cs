@@ -1,5 +1,9 @@
 ﻿using Agents_Client.Models;
 using Agents_Client.ViewModel;
+using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Headers;
+using System.Text;
+using System.Text.Json;
 
 namespace Agents_Client.Services
 {
@@ -26,7 +30,7 @@ namespace Agents_Client.Services
                 
                 missionproposal.Add(new MissionActiveVM
                 {
-
+                    Id = mission.Id,
                     NickName = agent.NickName,
                     Location_X_Agent = agent.Location_X,
                     Location_Y_Agent = agent.Location_Y,
@@ -85,14 +89,35 @@ namespace Agents_Client.Services
 
         }
 
-        public int AgentInProposal(AgentVM agent, TargetVM target)
-        {
-            var agents = agentService.GetAllAgents();
-            var targets = targetService.GetAllTargets();
-            var distance = CalculateDistance(agent, target);
 
-            var agentInProposal = agents.
+        public async Task<MissionActiveVM> GetDetailsById(int id)
+        {
+             var missions = await GetAllMissionPorposal();
+            var mission = missions.FirstOrDefault(m => m.Id == id) ??
+                throw new Exception("Not Found");
+            return mission;
         }
+
+
+        public async Task<string> UpdateMissionToActive(int id)
+        {
+            var httpClient = clientFactory.CreateClient();
+            var request = new HttpRequestMessage(HttpMethod.Put, $"http://localhost:5226/Missions/{id}");
+            var httpContent = new StringContent(
+                JsonSerializer.Serialize
+                ("status : assigned"),
+                Encoding.UTF8,
+                "application/json"
+              );
+            request.Content = httpContent;
+            var res = await httpClient.SendAsync(request);
+            if (res.IsSuccessStatusCode)
+            {
+                return "Success";
+            }
+            return "Not Succsess";
+        }
+
 
     }
 }

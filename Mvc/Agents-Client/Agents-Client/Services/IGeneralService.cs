@@ -6,5 +6,7 @@ namespace Agents_Client.Services
     {
         Task<List<MissionActiveVM>> GetAllMissionPorposal();
         Task<GeneralVM> GetGeneralDetails();
+        Task<MissionActiveVM> GetDetailsById(int id);
+        Task<string> UpdateMissionToActive(int id);
     }
 }

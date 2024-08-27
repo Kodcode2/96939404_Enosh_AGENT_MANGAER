@@ -9,12 +9,13 @@ namespace AgentRestApi.Services
     public class MissionService(ApplicationDbContext context) : IMissionService
     {
        
-        
+        //פונקציה להביא כל המשימות מהDBCONTEXT 
         public async Task<List<MissionModel>> GetAllMissionsAsync()
         {
             return await context.Missions.ToListAsync();
         }
 
+        //פונקציה לחישוב מרחק בים סוכן למטרה
         public double CalculateDistance(AgentModel agent, TargetModel target)
         {
             var distance =  Math.Sqrt(Math.Pow(agent.Location_X - target.Location_X, 2)
@@ -24,7 +25,7 @@ namespace AgentRestApi.Services
         }
 
 
-
+        //פונקציה לבדיקת מטרה עם היא לא צוותה למשימה אחרת
         public async Task<List<TargetModel>> RelevantTargetPorpose()
         {
             var targets = await context.Targets

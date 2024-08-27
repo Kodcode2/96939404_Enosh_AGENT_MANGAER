@@ -7,8 +7,16 @@ namespace Agents_Client.Controllers
     {
         public async Task<IActionResult> Index()
         {
+            try
+            {
             var agents = await agentService.GetAgents();
             return View(agents);
+
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("Index","Home");
+            }
         }
     }
 }
